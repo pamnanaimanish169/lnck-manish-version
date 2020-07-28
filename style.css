@@ -1,1 +1,26 @@
 body{font-family: 'Dosis', sans-serif;}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: solid blue 2px
+}
+
+.bottom-right {
+    /* This element is positioned relative to the the element with contianer class */
+    position: absolute;
+    right: 0;
+}
+
+.top-left {
+    /* This element is positioned relative to the element with container class */
+    position: absolute;
+    top: 0;
+}
+
+.top-right {
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
